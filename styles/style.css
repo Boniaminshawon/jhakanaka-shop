@@ -3,3 +3,44 @@
   * {
       font-family: 'Poppins', sans-serif;
   }
+  header{
+    background-color: blueviolet;
+  }
+  nav{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 2px solid wheat; */
+    }
+  .nav-logo{
+    display: flex;
+    align-items: center;
+    width: 50%;
+
+  }
+  .nav-logo img{
+    width: 70px;
+  }
+  .nav-logo p{
+    font-size: 24px;
+  }
+  .special{
+    color: hotpink;
+    font-weight: 800;
+  }
+  .nav-item a{
+    text-decoration: none;
+    color: white; 
+    font-size: 20px;
+    margin-right: 40px;
+   }
+   .btn{
+    color:black; 
+    font-size: 20px;
+    background-color:pink;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+   }
