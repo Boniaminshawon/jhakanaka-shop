@@ -15,5 +15,15 @@
         margin-right: 0;
         padding-bottom: 5px;
     }
+    .banner-container{
+        flex-direction: column;
+    }
+    .banner-content{
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    }
+
     
 }
